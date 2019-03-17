@@ -1,0 +1,51 @@
+.mybglight {
+  background-color: #bfdaf8;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.oilBackground {
+  
+  background-image: url("../images/oilChangeDue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 3%;
+  
+}
+
+
+.tireBackground {
+    
+    background-image: url("../images/tireImages.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 7%;
+    
+  }
+
+  .tuneUpBackground {
+    
+    background-image: url("../images/TuneUp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 3%;
+    
+  }
+
+.jumbotron {
+    background-color: white;
+    color: navy;
+}
+
+
+ 
