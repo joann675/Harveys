@@ -16,9 +16,22 @@ body {
 .navbar {
   padding: 0;
 }
+.navbar-brand2 {
+  padding:0;
+  margin:0;
+  border-bottom: 14px solid black;
+  
+}
+.navbar-brand3 {
+  padding:0;
+  margin:0;
+  color:black;
+  
+}
 .navbar-brand {
   padding:0;
   margin:0;
+  border-bottom: 14px solid rgb(50, 137, 196);
 }
 .navbar-dark .navbar-nav .nav-link {
  
@@ -31,12 +44,16 @@ body {
   color: white;
   text-align: center;
 }
+.smCaps {
+  font-variant: small-caps;
+  font-size:30px;
 
+}
 
-#navbarNavAltMarkup {
+#navbarNavAltMarkup2 {
   
   background-color: black;
-  border-bottom: 14px solid rgb(50, 137, 196);
+  border-bottom: 14px solid black;
   border-top:0;
   border-left:0;
   border-right:0;
@@ -47,11 +64,13 @@ body {
   margin:0;
 }
 
-#navbarNavAltMarkup2 {
+#navbarNavAltMarkup {
   
   background-color: black;
-  border: 0;
-
+  border-bottom: 14px solid rgb(50, 137, 196);
+  border-top:0;
+  border-left:0;
+  border-right:0;
   text-align: right;
 
   padding: 0px 10px 0px 0px;
@@ -73,7 +92,7 @@ p {
   background-repeat: no-repeat;
   color: whitesmoke;
   border-bottom: 1px solid #e5e5e5;
-  padding: 3%;
+  padding: 2%;
   
 }
 
@@ -96,9 +115,112 @@ p {
     background-repeat: no-repeat;
     color: whitesmoke;
     border-bottom: 1px solid #e5e5e5;
-    padding: 3%;
+    padding: 4%;
     
   }
+
+  .alignBackground {
+    background-image: url("../images/alignment.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 3%;
+  }
+
+  .airBackground {
+    background-image: url("../images/auto-ac.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 3%;
+  }
+  .batteryBackground {
+    background-image: url("../images/battery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 4%;
+  }
+
+  .brakesBackground {
+    background-image: url("../images/brakes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 2%;
+  }
+  .compBackground {
+    background-image: url("../images/computer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 9%;
+  }
+  .electronicBackground {
+    background-image: url("../images/electronics.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1%;
+  }
+
+  .exhaustBackground {
+    background-image: url("../images/exhaust.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 11%;
+  }
+  .suspBackground {
+    background-image: url("../images/suspension.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 9%;
+  }
+
+  .prePurchaseBackground {
+    background-image: url("../images/prePurchase.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 2%;
+  }
+  .timingBackground {
+    background-image: url("../images/timing-belt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 8%;
+  }
+  .radiatorBackground {
+    background-image: url("../images/radiator.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 6%;
+  }
+  .tranBackground {
+    background-image: url("../images/transmission.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 11%;
+  }
+  
+
 
 .jumbotron {
     background-color: white;
