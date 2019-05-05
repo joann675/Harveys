@@ -7,79 +7,67 @@
   <title>Harveys</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark">
+  <nav class="navbar navbar-expand-sm navbar-dark">
 
 
-        <a href="#" class="navbar-brand2"><img src="images/Harveys-logo-v2.jpg" width=175px height=86px></a>
-    
-        <div class="navbar-collapse" id="navbarNavAltMarkup2">
-    
-          <ul class="navbar-nav" id="centerNav">
-            <li class="dropdown">
-              <a class=smCaps>Harvey's Auto</a>
-              
-              
-            </li>
-            <li class="dropdown">
-             
-              <i>Proudly serving Cape Cod for over 40 years! </i>
-            </li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <strong><a href="index.html" class="nav-link">HOME</a></strong>
-            </li>
-            <li class="nav-item">
-              <strong><a href="services.html" class="nav-link">SERVICES</a></strong>
-            </li>
-            <li class="nav-item">
-              <strong><a href="location.html" class="nav-link">LOCATION</a></strong>
-            </li>
-            <li class="nav-item">
-              <strong><a href="contact.html" class="nav-link">CONTACT</a></strong>
-            </li>
-    
-          </ul>
-    
-        </div>
-      </nav>
+    <a href="#" class="navbar-brand2"><img src="images/Harveys-logo-v2.jpg" width=175px height=86px></a>
+
+    <div class="navbar-collapse" id="navbarNavAltMarkup2">
+
+      <ul class="navbar-nav" id="centerNav">
+        <li class="dropdown">
+          <a class=smCaps>Harvey's Auto</a>
+
+
+        </li>
+        <li class="dropdown">
+
+          <i>Proudly serving Cape Cod for over 40 years! </i>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <strong><a href="index.html" class="nav-link">HOME</a></strong>
+        </li>
+        <li class="nav-item">
+          <strong><a href="services.html" class="nav-link">SERVICES</a></strong>
+        </li>
+        <li class="nav-item">
+          <strong><a href="location.html" class="nav-link">LOCATION</a></strong>
+        </li>
+        <li class="nav-item">
+          <strong><a href="contact.html" class="nav-link">CONTACT</a></strong>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
 
   <div style="height:800px;">
     <div class="site-wrapper">
       <div class="site-wrapper-inner" style="margin:50px">
 
 
-
-
         <section style="border: 1px solid #dddddd; background: #ffffff; width: 75%; margin-top: 10px;margin-left: 12%">
           <h1 style="font-weight: 700; color: black; font-family:Georgia, 'Times New Roman', Times, serif">Contact</h1>
-
-
-          <form action="mailto:harveysauto@outlook.com" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="John Smith">
-
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
-            </div>
-            <div class="form-group">
-              <label for="cellNum">Mobile Number</label>
-              <input type="cellNum" class="form-control" id="cellNum" placeholder="999-999-9999">
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" rows="5"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary" style="background:rgb(50, 137, 196)">
-              Submit</button>
-
+          <form action="mailto:harveysauto@outlook.com?subject=Contact Form Submission" method="post"
+            enctype="text/plain">
+            Name<br>
+            <input class="form-control" name="name" placeholder="John Smith" type="text"><br>
+            E-mail<br>
+            <input class="form-control" type="text" name="mail" placeholder="example@gmail.com" ><br>
+            Mobile Number<br>
+            <input class="form-control" type="text" name="cellNum" placeholder="999-999-9999" ><br>
+            Message<br>
+            <textarea class="form-control" name="message" rows="5"></textarea><br>
+            
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
           </form>
 
         </section>
