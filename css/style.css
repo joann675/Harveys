@@ -26,6 +26,7 @@ body {
   padding:0;
   margin:0;
   color:black;
+  text-align: center;
   
 }
 .navbar-brand {
@@ -37,7 +38,8 @@ body {
  
   color: white;
 }
-#centerNav {
+#centerNav { 
+  width: 75%;
   float: none;
   margin: auto;
   display: block;
@@ -48,6 +50,16 @@ body {
   font-variant: small-caps;
   font-size:30px;
 
+}
+
+#blueNav {
+  width: 75%;
+  float: none;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-variant: small-caps;
+  font-size:30px;
 }
 
 #navbarNavAltMarkup2 {
@@ -80,8 +92,9 @@ body {
 
 
 p {
-  text-align: justify;
-  text-justify: inter-word;
+  /* text-align: justify;
+  text-justify: inter-word; */
+  text-align: left;
 }
 
 
@@ -159,16 +172,9 @@ p {
     background-repeat: no-repeat;
     color: whitesmoke;
     border-bottom: 1px solid #e5e5e5;
-    padding: 9%;
-  }
-  .electronicBackground {
-    background-image: url("../images/electronics.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: whitesmoke;
-    border-bottom: 1px solid #e5e5e5;
     padding: 1%;
   }
+
 
   .exhaustBackground {
     background-image: url("../images/exhaust.jpg");
